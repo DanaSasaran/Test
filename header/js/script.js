@@ -1,3 +1,17 @@
+$(document).ready(function(){
+	
+	$(window).resize(function(){
+		if($(window).width() < 1000){
+			$("body").css('font-size', 10);
+		}
+		else{
+			$("body").css('font-size', 15);
+		}
+	});
+	
+});
+
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -7,3 +21,4 @@ function scrollFunction() {
         document.getElementById("header").style.opacity = "1.0";
     }
 }
+
