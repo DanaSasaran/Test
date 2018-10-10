@@ -1,33 +1,24 @@
-
-.container{
-
-	background-color: white;
-	width: 100%;
-	overflow-y: auto; 
-	margin-top: 110px;
-
-
+body{
+	margin-left: 0px;
+	margin-top: 0px;
 }
 
-.navbar {
+.container{
+	background-color: white;
+	width: 100%; 
+	padding-top: 80px;
+
+	padding-left: 8px;
+}
+
+.navbar{
 	width: 100%;
     background-color: #f3f3f3;
 	position: fixed;
-	margin-top = 0px;
-	top: 0;
-	left:0;
-	overflow: hidden;
 }
 
-#header{
-	transition: 0.1s;
-}
-
-.navmenu{
-	display: inline-block;
-	margin-bottom: 5px;
-	background-color: black;
-	float: right;
+.navbar nav{
+	position: fixed;
 }
 
 .navuser{
@@ -56,22 +47,19 @@
 .navbar nav a.active {
 	color: gray;
 }
+.navbar nav a:hover {
+	color: #e2007a;
+}
 
 nav {
     list-style-type: none;
-    padding: 0;
 	display: inline-block;
-	position: absolute;
 	margin-top: 45px;
 	right: 150px;
-	
-
 }
-
 
 #logo {
 	height: 60px;
-	vertical-align: middle;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: 15px;
@@ -79,9 +67,7 @@ nav {
 
 #profile {
 	height: 40px;
-	vertical-align: middle;
 	margin-top: 5px;
-	margin-bottom: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 50%;
